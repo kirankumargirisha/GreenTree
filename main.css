@@ -1,142 +1,109 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  min-width: 400px;
-}
-
-header {
+.container {
   border: 1px solid #00000029;
 }
 
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.wrapper {
   width: 90%;
-  height: 120px;
-  margin: 20px auto 0 auto;
+  margin: auto !important;
 }
 
-ul {
+.content {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto 20px auto;
+}
+
+.menu {
+  padding: 0;
+  margin-top: 28px;
   display: flex;
   justify-content: space-between;
 }
 
-ul li {
+.menu li {
   list-style: none;
   margin: 0 30px 0 30px;
 }
 
-ul a {
-  font: Helvetica, light;
+.menu li a {
+  font-family: Helvetica;
+  font-weight: bold;
   font-size: 16px;
   color: #354463;
   text-decoration: none;
 }
 
 .title {
-  font: Helvetica, Bold;
+  font-family: Helvetica;
+  font-weight: bold;
   font-size: 22px;
   color: #354463;
   width: 147px;
-  height: 63px;
 }
 
-button {
+.btn {
   font-family: Helvetica;
   font-weight: bold;
   font-size: 18px;
   color: #354463;
-  background-color: #C1F7D5;
-  border-radius: 10px;
-  width: 130px;
-  height: 40px;
+  background-color: #c1f7d5;
+  border-radius: 25px;
+  padding: 10px;
 }
 
-@media screen and (min-width: 501px) and (max-width: 800px) {
-
-  header {
-    border: 1px solid #00000029;
-  }
-
-  .container {
+@media screen and (min-width: 501px) and (max-width: 991px) {
+  .content {
+    display: flex;
     flex-direction: column;
-    justify-content: initial;
     align-items: initial;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 128px;
-    margin: 20px auto 0 auto;
+    margin: 0;
   }
 
-  ul {
+  .menu {
     display: flex;
     justify-content: initial;
   }
 
-  ul li {
+  .menu li {
     margin: initial;
-    padding: 0px 15px 0px 5px;
+    padding: 0 50px 0 0;
   }
 
   .title {
-    height: 63px;
+    order: -1;
   }
 
-  nav {
-    height: 40px;
+  .nav-container {
+    order: 1;
   }
 
-  button {
-    margin-top: 20px;
-    margin-left: 20px;
+  .btn {
+    align-self: flex-end;
+    margin-top: -50px;
   }
-
 }
 
 @media screen and (max-width: 500px) {
-
-  header {
-    border: 1px solid #00000029;
-  }
-
-  .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  .content {
     flex-wrap: wrap;
-    width: 90%;
-    height: 150px;
   }
 
   .title {
-    width: 146px;
+    margin-top: 25px;
   }
 
-  ul {
-    display: block;
-    width: 50%;
+  .menu {
+    display: initial;
   }
 
-  ul li {
-    list-style: none;
-    width: 111px;
-    margin: 0 30px 0 30px;
-    padding: 7px;
+  .menu li {
+    margin: 12px 0px 0 12px;
   }
 
-  button {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 18px;
-    color: #354463;
-    background-color: #C1F7D5;
-    border-radius: 10px;
-    width: 335px;
-    height: 40px;
+  .btn {
+    margin-top: 20px;
+    padding: 10px 150px 10px 150px;
   }
-
 }
