@@ -1,3 +1,6 @@
+/* ********************************************************************************************
+/* Header Section */
+/* ******************************************************************************************** */
 .container {
   border: 1px solid #00000029;
 }
@@ -10,7 +13,7 @@
 .content {
   display: flex;
   box-sizing: border-box;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 20px auto 20px auto;
 }
@@ -29,7 +32,7 @@
 
 .menu li a {
   font-family: Helvetica;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 16px;
   color: #354463;
   text-decoration: none;
@@ -53,7 +56,368 @@
   padding: 10px;
 }
 
+/* ******************************************************************************************** */
+/* Home Section */
+/* ******************************************************************************************** */
+.bg-img {
+  min-height: 75vh;
+  background: transparent url("img/annie-spratt-135307-unsplash.png") 0% 0% no-repeat padding-box;
+  background-size: 100% 100%;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-content {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 90px;
+}
+
+.primary-btn1 {
+  position: relative;
+  bottom: 10px;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: normal;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 30px;
+}
+
+.secondary-text {
+  background: transparent url(img/component.png) 0% 0% no-repeat padding-box;
+  background-size: 257px 235px;
+  opacity: 1;
+  margin-left: 100px;
+  margin-top: 150px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.primary-text {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+  color: #354463;
+  margin-left: 30px;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.read-more {
+  padding-left: 0;
+  margin-left: 30px;
+}
+
+.read-more li {
+  list-style: none;
+  margin: 0;
+}
+
+.read-more a {
+  text-decoration: underline !important;
+  font-weight: Light;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Helvetica;
+  letter-spacing: -0.16px;
+  color: #354463;
+  opacity: 1;
+}
+
+.primary-btn2 {
+  background: #354463 0% 0% no-repeat padding-box;
+  text-align: center;
+  font-size: 14px;
+  font-weight: NORMAL;
+  line-height: 17px;
+  font-family: Helvetica;
+  font: Regular 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+  opacity: 1;
+  bottom: -10px;
+  margin-left: calc(50% - 30px);
+}
+
+/* End of Home Section */
+
+/* ******************************************************************************************** */
+/* Section -1 */
+/* ******************************************************************************************** */
+
+.background-wrapper {
+  background-color: #c1f7d5;
+}
+
+.container-connect {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.content-heading {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 14px;
+  color: #354463;
+  font-size: 28px;
+  margin-left: 0;
+}
+
+.content-para {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #354463;
+}
+
+/* End of Section-1 */
+
+/* Section-2 */
+.section-holder {
+  background: #c1f7d5;
+}
+
+.section-container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-content1 {
+  width: 25%;
+}
+
+.section-title {
+  text-align: left;
+  font-weight: Bold;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+
+.section-para {
+  text-align: left;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: Helvetica;
+  letter-spacing: -0.16px;
+  color: #354463;
+  opacity: 1;
+  margin-right: 75px;
+}
+
+/* End of Section-2 */
+
+/* section-3 */
+.wwd-section {
+  background: #354463;
+}
+
+.wwd-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.www-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.wwd-content-wrapper {
+  width: 28%;
+  margin-bottom: 40px;
+  margin-top: 25px;
+  background: #fff;
+}
+
+img {
+  width: 100%;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.wwd-content-title {
+  text-align: left;
+  margin-left: 20px;
+  font: normal normal bold 28px/36px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+
+.wwd-content-para {
+  text-align: left;
+  margin-left: 20px;
+  font: normal normal 300 16px/24px Helvetica;
+  letter-spacing: -0.16px;
+  color: #354463;
+  opacity: 1;
+}
+
+.wwd-btn-wrapper-2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content-btn {
+  color: #354463;
+  padding: 10px;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+}
+
+.wwd-btn-wrapper-1 {
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  opacity: 1;
+}
+
+.wwd-btn-2 {
+  color: #354463;
+  margin-top: 50px;
+}
+
+.wwd-main-geading {
+  font: normal normal bold 44px/56px Helvetica;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+/* Section-4 */
+.climate-change-container-wrapper {
+  background: transparent url('./img/Didyouknowbackground.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  opacity: 1;
+}
+
+.climate-change-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.climate-change-sub-container-1 {
+  margin-top: 35px;
+  width: 50%;
+}
+
+.climate-change-sub-container-2 {
+  margin-top: 66px;
+  width: 50%;
+}
+
+.climate-change-btn {
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #FFFFFF;
+  opacity: 1;
+  background: #354463 0% 0% no-repeat padding-box;
+}
+
+.climate-change-img-container {
+  background: url("./img/ClimatechangeIsahungerissue.svg") 0% 0% no-repeat padding-box;
+  background-size: 317px 270px;
+  width: 232px;
+  opacity: 1;
+  min-height: 300px;
+}
+
+.climate-change-sub-container-2-btn {
+  margin-left: 35px;
+  margin-bottom: -30px;
+}
+
+.climate-change-content-container {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  background: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.climate-change-btn-container-btn {
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  padding: 5px;
+  border-radius: 100px;
+  opacity: 1;
+}
+
+.climate-change-content-container-1 {
+  width: 70%;
+}
+
+.climate-change-content-container-heading {
+  font: normal normal bold 44px/56px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  margin-left: 20px;
+}
+
+.climate-change-content-container-para {
+  font: normal normal normal 22px/28px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  opacity: 1;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.climate-change-twitter {
+  margin-right: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: -2px;
+  margin-bottom: 80px;
+  border-radius: 50%;
+}
+
+.climate-change-facebook {
+  margin-right: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 27px;
+  border-radius: 50%;
+}
+
+/* End of Section-4 */
+
+/* ******************************************************************************************** */
+/* Tablet View */
+/* ******************************************************************************************** */
 @media screen and (min-width: 501px) and (max-width: 991px) {
+
+  /* Header */
   .content {
     display: flex;
     flex-direction: column;
@@ -78,14 +442,204 @@
   .nav-container {
     order: 1;
   }
-  
-  .btn-wrapper{
+
+  .btn-wrapper {
     align-self: flex-end;
     margin-top: -50px;
   }
+
+  /* Section-1 */
+  .section-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .bg-img {
+    background: transparent url(img/annie-spratt-135307-unsplash.png) 0% 0% no-repeat padding-box;
+    background-size: 100% 100%;
+  }
+
+  .secondary-text {
+    margin-left: 0;
+    margin-top: 58px;
+    min-height: 200px;
+    background-size: 165px 138px;
+  }
+
+  .section-content {
+    min-height: 374px;
+    margin-top: 40px;
+  }
+
+  .primary-text {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #354463;
+    margin-left: 30px;
+    max-width: 581px;
+  }
+
+  .content-heading {
+    margin-bottom: 0;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 22px;
+    color: #354463;
+    max-width: 581px;
+  }
+
+  .content-para {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #354463;
+    margin-top: 0;
+  }
+
+  .primary-btn1 {
+    padding: 10px 30px 10px 30px;
+  }
+
+  .primary-btn2 {
+    bottom: -15px;
+    margin-left: 40%;
+  }
+
+  .section-content1 {
+    width: 50%;
+  }
+
+  .section-title {
+    text-align: left;
+    font: Bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+  }
+
+  /* section-3 */
+  .wwd-btn-2 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #354463;
+    margin-top: 50px;
+    font: normal normal normal 14px/17px Helvetica;
+    padding: 10px;
+  }
+
+  .wwd-main-geading {
+    font: normal normal bold 36px/46px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  .www-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .wwd-content-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 45%;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+
+  .wwd-desp-wrapper {
+    width: 50%;
+  }
+
+  .wwd-btn-wrapper-2 {
+    width: 75%;
+  }
+
+  .wwd-content-title {
+    margin-top: 63px;
+    font: normal normal bold 22px/28px Helvetica;
+  }
+
+  .wwd-content-para {
+    font: normal normal 300 16px/24px Helvetica;
+    margin-bottom: 0;
+  }
+
+  .wwd-btn-wrapper-2 {
+    width: 79%;
+  }
+
+  .content-btn {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  /* End of Section-3 */
+
+  /* section-4 */
+  .climate-change-sub-container-1 {
+    width: 26.5%;
+
+  }
+
+  .climate-change-sub-container-2 {
+    width: 50%;
+  }
+
+  .climate-change-content-container-heading {
+    font: normal normal bold 36px/46px Helvetica;
+  }
+
+  .climate-change-content-container-para {
+    font: normal normal bold 18px/24px Helvetica;
+  }
+
+  .climate-change-content-container-heading {
+    font: normal normal bold 36px/46px Helvetica;
+  }
+
+  .climate-change-content-container-para {
+    font: normal normal bold 18px/24px Helvetica;
+  }
+
+  .climate-change-twitter {
+    margin-bottom: 88px;
+  }
+
+  .climate-change-btn {
+    margin-left: 25px;
+    margin-bottom: -10px;
+  }
+
+  .climate-change-twitter {
+    margin-bottom: 50px;
+  }
+
+  /* End of Section-4 */
 }
 
+/* ******************************************************************************************** */
+/* Mobile View */
+/* ******************************************************************************************** */
 @media screen and (max-width: 500px) {
+  .container {
+    margin-bottom: 15px;
+    border: 0;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .content {
     flex-wrap: wrap;
   }
@@ -102,9 +656,201 @@
     margin: 12px 0px 0 12px;
   }
 
-  /* Wrapper */
-  .btn-wrapper{
+  .btn-wrapper {
     margin-top: 20px;
     padding: 10px 150px 10px 150px;
   }
+
+  /* Section-1 */
+  .primary-btn1 {
+    margin-left: 30%;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+  }
+
+  .primary-btn2 {
+    margin-left: 30%;
+  }
+
+  .secondary-text {
+    background: transparent url(img/component.png) 0% 60% no-repeat padding-box;
+    background-size: 181px 136px;
+    min-height: 230px;
+    margin-left: initial;
+    margin-top: initial;
+  }
+
+  .bg-img {
+    background-size: 100% 100%;
+  }
+
+  .section-content {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .primary-text {
+    text-align: center;
+    font: Bold 22px/28px Helvetica;
+  }
+
+  .read-more {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 79px;
+    margin-right: 86px;
+  }
+
+  /* Section -2 */
+  .section-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .section-para {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .section-content1 {
+    width: 50%;
+  }
+
+  /* section-3 */
+  .www-container {
+    flex-direction: column;
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+
+  .wwd-content-wrapper {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  img {
+    width: 90%;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .wwd-desp-wrapper {
+    width: 60%;
+    margin: auto;
+  }
+
+  .wwd-btn-wrapper-2 {
+    width: 100%;
+  }
+
+  .wwd-btn-wrapper-1 {
+    text-align: center;
+  }
+
+  .wwd-main-geading {
+    font: normal normal bold 22px/28px Helvetica;
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  .wwd-btn-2 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #354463;
+    margin-top: 50px;
+    font: normal normal normal 14px/17px Helvetica;
+    padding: 10px;
+  }
+
+  .wwd-content-title {
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+  }
+
+  .wwd-content-para {
+    text-align: center;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+  }
+
+  .wwd-btn-wrapper-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-btn {
+    margin-top: -16px;
+    margin-bottom: 25px;
+    padding: 10px;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+  }
+
+  /* End of Section-3 */
+
+
+  /* section - 4  */
+  .climate-change-btn-container-btn {
+    font: normal normal bold 16px/26px Helvetica;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .climate-change-sub-container-2-btn {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .climate-change-content-container-heading {
+    font: normal normal bold 22px/28px Helvetica;
+  }
+
+  .climate-change-content-container-para {
+    font: normal normal normal 14px/22px Helvetica;
+  }
+
+  .climate-change-twitter {
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+
+  .climate-change-container-wrapper {
+  	background-position: center;
+    background-attachment: fixed;
+  }
+
+  .climate-change-container {
+    flex-direction: column;
+  }
+
+  .climate-change-sub-container-2 {
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  .climate-change-sub-container-2-btn {
+    text-align: center;
+    margin-bottom: -10px;
+  }
+
+  .climate-change-btn {
+    padding: 15px;
+  }
+
+  /* End of section - 4 */
 }
+
+
+
+/* 
+mobile min- 300 --767
+tab ---768 -- 991
+desp --992 ---1200 */
